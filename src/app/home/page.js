@@ -5,11 +5,11 @@ import TrendingNews from "../../components/TrendingNews";
 export default function Home() {
     return (
         <>
-            <div className="flex sm:flex-col">
-                <div className="flex-1 flex flex-col w-full max-w-4xl mx-auto">
+            <div className="flex md:flex-row sm:flex-col">
+                <div className="">
                     <MainContent />
                 </div>
-                <div className="w-full md:w-80 flex-shrink-0">
+                <div className="">
                     <TrendingNews />
                 </div>
             </div>

@@ -43,7 +43,7 @@ const news = [
 
 export default function TrendingNews() {
     return (
-        <Card className="flex flex-col bg-[#191B1E] border-none m-2 p-2 gap-4 rounded-xl shadow-lg w-full max-w-xs md:max-w-xs md:w-80 md:fixed md:right-2 md:top-0 md:bottom-1 md:overflow-y-auto sm:max-w-4xl sm:mx-auto">
+        <Card className="flex flex-col bg-[#191B1E] border-none m-2 p-2 gap-4 rounded-xl shadow-lg w-full max-w-xs md:max-w-xs md:w-80 h-[98%] md:right-2 md:top-0 md:bottom-1 md:overflow-y-auto sm:max-w-4xl sm:mx-auto">
             <div className="flex items-center justify-between mb-2">
                 <span className="text-white font-semibold text-lg">
                     Trending News

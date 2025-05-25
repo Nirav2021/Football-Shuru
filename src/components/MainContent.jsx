@@ -54,13 +54,13 @@ export default function MainContent() {
     }, [data]);
 
     return (
-        <main className="flex flex-col gap-4 p-2 w-full max-w-4xl mx-auto px-2 md:px-6 min-h-screen">
+        <main className="media-width flex flex-col gap-4 p-2 w-full mx-auto px-2 md:px-6 min-h-screen">
             {/* Header Image */}
             <div className="w-full h-40 md:h-56 rounded-xl mb-2 relative">
                 <Image src={footballBanner} alt="Football Banner" sizes="" fill />
             </div>
             {/* Control */}
-            <Card className="border-none bg-[#222222] px-3 py-3 flex flex-col gap-4 min-h-[360px]">
+            <Card className="border-none bg-[#222222] px-3 py-3 flex flex-col gap-4 flex-1">
                 {/* First Row: Live, Search, Dropdown */}
                 <div className="flex items-center gap-3">
                     <Button className="flex items-center gap-2 px-2 py-2 rounded-xl bg-[#303030]">
