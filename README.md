@@ -15,10 +15,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 Please copy .env file which have secret keys into our project with top level files
 
 ## Appliation includes
-It is based on figma design which is https://www.figma.com/design/E7azTjbDzSV0mB9MrYXfi3/Football-Score-Website--Community-?node-id=0-1
-Used Next.js 14 version with app routing
-Shadcn used for design component
-Reaact Query used for Sportmonks api data fetching
+- It is based on figma design which is https://www.figma.com/design/E7azTjbDzSV0mB9MrYXfi3/Football-Score-Website--Community-?node-id=0-1
+- Used Next.js 14 version with app routing
+- Shadcn used for design component
+- Reaact Query used for Sportmonks api data fetching
 
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
