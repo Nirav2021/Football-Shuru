@@ -168,7 +168,7 @@ export default function Sidebar() {
                     </Button>
                     <Button
                         variant="ghost"
-                        className="font-sofia-sans justify-start w-full text-left px-3 py-2 text-sm flex items-center gap-3 text-white hover:bg-[#23262F] rounded-lg"
+                        className="font-sofia-sans justify-start w-full text-left px-3 py-2 text-sm flex items-center gap-3 text-white hover:bg-[#23262F] hover:text-white rounded-lg"
                     >
                         <Download className="w-5 h-5 text-white" /> Download The
                         App
